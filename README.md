@@ -1,9 +1,10 @@
 # Nome do projeto
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+Nome: BrainsForge
+Objetivo: Produzir um site de cursos online gratuitos e cada curso será mostrado a carreira que aquela "formação" pode proporcionar, além de outras funcionalidades que podem ser adicionadas no futuro.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
+* Jáderson Válner Ferreira de Lima
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
@@ -12,8 +13,8 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Felipe Augusto Lima Reis
+* Caroline Rhaian da Silva Jandre
 
 ## Quadro de tarefas
 Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
