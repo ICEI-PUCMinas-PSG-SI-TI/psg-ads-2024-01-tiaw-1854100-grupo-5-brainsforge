@@ -27,7 +27,7 @@ Sprint 1
 
 4 - Mapa de Stakeholders
 
-5 - Persona 1 
+5 - Persona 1 Bruna
 
 6 - Slide
 
