@@ -5,7 +5,7 @@ Objetivo: Produzir um site de cursos online gratuitos e cada curso será mostrad
 ## Alunos integrantes da equipe
 
 * Jáderson Válner Ferreira de Lima
-* Nome completo do aluno 2
+* Bruna Luiza Siqueira Borges Matias
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 4
