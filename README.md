@@ -17,7 +17,16 @@ Objetivo: Produzir um site de cursos online gratuitos e cada curso será mostrad
 * Caroline Rhaian da Silva Jandre
 
 ## Quadro de tarefas
-Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
+Sprint 1
+
+1 - Contextualização - Jáderson
+2 - Matriz csd - Jáderson
+3 - Entrevista Qualitativa Jáderson
+4 - Mapa de Stakeholders
+5 - Persona 1 
+6 - Slide
+7 - Wireframe
+8 - Concerteza tem mais..
 
 ## Instruções para uso
 Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
