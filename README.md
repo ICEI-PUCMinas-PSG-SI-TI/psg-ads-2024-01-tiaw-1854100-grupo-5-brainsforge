@@ -17,23 +17,7 @@ Objetivo: Produzir um site de cursos online gratuitos e cada curso será mostrad
 * Caroline Rhaian da Silva Jandre
 
 ## Quadro de tarefas
-Sprint 1
-
-1 - Contextualização - Jáderson
-
-2 - Matriz csd - Jáderson
-
-3 - Entrevista Qualitativa Jáderson
-
-4 - Mapa de Stakeholders
-
-5 - Persona 1 Bruna
-
-6 - Slide
-
-7 - Wireframe
-
-8 - Concerteza tem mais..
+As tarefas estão listadas agora na aba projects.
 
 
 ## Instruções para uso
