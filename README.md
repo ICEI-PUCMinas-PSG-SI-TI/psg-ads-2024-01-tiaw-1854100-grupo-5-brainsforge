@@ -7,7 +7,7 @@ Objetivo: Produzir um site de cursos online gratuitos e cada curso será mostrad
 * Jáderson Válner Ferreira de Lima
 * Bruna Luiza Siqueira Borges Matias
 * Rafael Caire da Silva
-* Nome completo do aluno 4
+* Gabriel Baumgratz de Paula Botaro
 * Nome completo do aluno 4
 * Nome completo do aluno 4
 
