@@ -129,10 +129,6 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
                                               
 ![tela inicial](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6485d5d2-fc24-4a81-b093-76e7a25a1edf)
 
--Tela de Cadastro-
-
-![tela de cadastro](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/fc81663b-fb78-47cf-b4ba-08268a4020b0)
-
 -Tela de Pesquisa-
 
 ![tela de pesquisa](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/97256bbd-5c66-42ea-8964-969ada1db4fb)
