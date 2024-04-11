@@ -1,21 +1,21 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Brains Forge ......
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Análise e desenvolvimento de sistemas ......
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... Os membros do grupo são: ......
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> Bruna Luiza Siqueira Borges Matias.
+> Gabriel Baumgratz de Paula Botaro.
+> Jáderson Válner Ferreira de Lima.
+> João Paulo Said Fraga Lima.
+> Rafael Caire da Silva.
 
 # Estrutura do Documento
 
@@ -39,28 +39,17 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
+Desemprego e condições de trabalho ruins  são problemas que sempre existiram em nosso país, geralmente causados devido a problemas políticos como a inflação ou simplesmente por falta de qualificação profissional. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE) mostra que a taxa de desocupação do trimestre encerrado em janeiro de 2024 ficou em 7,6%. Brasil é o 2º país do G20 com maior percentual de pessoas abaixo da linha da pobreza, atrás apenas da Índia. De acordo com o site o globo e segundo pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE). Visivelmente muitas pessoas vivem em condições de extrema pobreza tanto por não ter formação alguma ou por não conseguir entrar no mercado de trabalho com sua qualificação atual. A nossa ideia é mudar isso, é proporcionar um meio para que a população necessitada possa ter condições de trabalho decentes e uma qualidade de vida digna.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso projeto tem como finalidade mitigar o problema do desemprego em nosso país auxiliando pessoas desempregadas ou com péssimas condições de emprego. Através de cursos online gratuitos e a possibilidade de concorrer a processos seletivos dentro de nossa futura plataforma. Tendo a possibilidade do cadastro de empresas no site que irão divulgar possíveis vagas de emprego disponíveis em sua corporação.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
-> 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos específicos:
+
+• Mitigar o desemprego no Brasil.
+• Empregar pessoas em situação de pobreza.
+• Divulgar vagas de emprego
 
 ## Público-Alvo
 
