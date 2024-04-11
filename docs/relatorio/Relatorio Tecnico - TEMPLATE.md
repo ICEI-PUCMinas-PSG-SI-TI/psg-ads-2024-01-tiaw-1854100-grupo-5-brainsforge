@@ -43,7 +43,7 @@
 
 ## Problema
 
-Desemprego e condições de trabalho ruins  são problemas que sempre existiram em nosso país, geralmente causados devido a problemas políticos como a inflação ou simplesmente por falta de qualificação profissional. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE) mostra que a taxa de desocupação do trimestre encerrado em janeiro de 2024 ficou em 7,6%. Brasil é o 2º país do G20 com maior percentual de pessoas abaixo da linha da pobreza, atrás apenas da Índia. De acordo com o site o globo e segundo pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE). Visivelmente muitas pessoas vivem em condições de extrema pobreza tanto por não ter formação alguma ou por não conseguir entrar no mercado de trabalho com sua qualificação atual. A nossa ideia é mudar isso, é proporcionar um meio para que a população necessitada possa ter condições de trabalho decentes e uma qualidade de vida digna.
+Desemprego e condições de trabalho ruins  são problemas que sempre existiram em nosso país, geralmente causados devido a problemas políticos como a inflação ou simplesmente por falta de qualificação profissional. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE) mostra que a taxa de desocupação do trimestre encerrado em janeiro de 2024 ficou em 7,6%. Brasil é o 2º país do G20 com maior percentual de pessoas abaixo da linha da pobreza, atrás apenas da Índia. De acordo com o site o globo e segundo pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE). Visivelmente muitas pessoas vivem em condições de extrema pobreza tanto por não ter formação alguma ou por não conseguir entrar no mercado de trabalho com sua qualificação atual. 
 
 ## Objetivos
 
@@ -108,6 +108,16 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 |RF-007| Mostrar classificação no processo seletivo        | ALTA       |
 |RF-008| Permitir o administrador remover contas           | ALTA       |
 
+
+### Requisitos não-funcionais
+
+|ID     | Descrição do Requisito                            | Prioridade |
+|-------|---------------------------------------------------|------------|
+|RNF-001| Suportar 1000 usuários simultâneos                | ALTA       | 
+|RNF-002| Responsividade funcional em celulares e tablets   | ALTA       |
+|RNF-003| Navegar entre páginas em 5 segundos no máximo     | MÉDIA      |
+|RNF-004| O site deve estar ativo 99% do tempo              | ALTA       |
+
 # Projeto da Solução
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -115,22 +125,19 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+-Tela Inicial-
+                                              
+![tela inicial](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6485d5d2-fc24-4a81-b093-76e7a25a1edf)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Link para Wireframe](images/wireframe-example.png)
+-Tela de Cadastro-
+
+![tela de cadastro](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/fc81663b-fb78-47cf-b4ba-08268a4020b0)
+
+-Tela de Pesquisa-
+
+![tela de pesquisa](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/97256bbd-5c66-42ea-8964-969ada1db4fb)
+
+
 
 
 ## Mapa de navegação
@@ -146,10 +153,6 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 # Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
-> o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldes encontradas e como foi possível contorná-las. 
+O intuito desse projeto é tentar diminuir o desemprego no Brasil auxiliando pessoas desempregadas ou com péssimas condições de emprego. Através de cursos online gratuitos e a possibilidade de concorrer a processos seletivos dentro de nossa futura plataforma. Proporcionando um meio para que a população necessitada possa ter condições de trabalho decentes e uma qualidade de vida digna. Sobre a dificuldade podemos citar o problema que é pensar em algo que consiga ajudar verdadeiramente a vida de alguém, e que esse algo seja acessível e de fácil acesso para o público-alvo.  Através de todas as etapas de planejamento conseguimos definir como começar a codificar nosso site já com algumas funcionalidades em mente por exemplo: filtro de pesquisa, feed de notícias, suporte, videoaulas, entre outros. Por nosso conhecimento ser limitado nesse momento, não poderemos ainda implementar recursos ou funcionalidades avançadas, porém concerteza futuramente isso vai mudar e iremos conseguir enriquecer mais a experiência do usuário ao navegar em nosso site.
 
 
