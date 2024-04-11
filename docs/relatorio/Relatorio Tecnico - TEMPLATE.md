@@ -76,45 +76,37 @@ Seguindo o linha de raciocínio de nosso projeto e segundo o tema base, Trabalho
 ![(backup)Design thinking board (1)](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/28b79864-58e2-40f6-abc1-d4c64bfc8205)
 
 
-
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                |PARA ... `MOTIVO/VALOR`                              |
+|--------------------|---------------------------------------------------|-----------------------------------------------------|
+|Ana Silva           |  Filtro de pesquisa                               |  Encontrar determinado curso ou vaga disponível     |
+|Empresa             |  Feed de notícias                                 |  Divulgar vagas de emprego                          |
+|Empresa             |  Cadastro específico                              |  Preencher informações adicionais da empresa        |
+|Marcos Cardoso      |  Suporte                                          |  Relatar dúvidas e problemas durante o uso do site  |
+|Administrador       |  Exibir número de pessoas escritas em um curso    |  Medir a popularidade e qualidade dos cursos        |
+|Alex Brandão        |  Ver plano de ensino do curso                     |  Saber o conteúdo de um curso antes de entrar nele  |
+|Ana Silva           |  Descobrir minha posição em um processo seletivo  |  Conseguir ver minhas chances de obter a vaga       |
+|Administrador       |  Remover o cadastro de determinada empresa        |  Impedir que empresas divulguem informações falsas  |
 
-> Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> da sua aplicação. Utilize as personas criadas como atores e, se for o caso, um administrador. 
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+## Requisitos
 
-## Requi[(backup)Design thinking board.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/files/14950119/backup.Design.thinking.board.pdf)
-sitos
-
-A tabela que segue apresenta os requisitos funcionais do projeto. 
+A tabela que segue apresenta os requisitos funcionais e não-funcionais do projeto. 
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|ID    | Descrição do Requisito                            | Prioridade |
+|------|---------------------------------------------------|------------|
+|RF-001| Permitir o usuário pesquisar determinado assunto  | ALTA       | 
+|RF-002| Exibir um feed de notícias                        | ALTA       |
+|RF-003| Possuir um cadastro específico para empresas      | ALTA       |
+|RF-004| Suporte aos usuários                              | MÉDIA      |
+|RF-005| Contagem de pessoas escritas em um curso          | MÉDIA      |
+|RF-006| Exibir plano de ensino de todos os cursos         | ALTA       |
+|RF-007| Mostrar classificação no processo seletivo        | ALTA       |
+|RF-008| Permitir o administrador remover contas           | ALTA       |
 
 # Projeto da Solução
 
