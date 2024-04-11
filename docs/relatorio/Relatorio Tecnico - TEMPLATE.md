@@ -12,9 +12,13 @@
 ...... Os membros do grupo são: ......
 
 > Bruna Luiza Siqueira Borges Matias.
+
 > Gabriel Baumgratz de Paula Botaro.
+
 > Jáderson Válner Ferreira de Lima.
+
 > João Paulo Said Fraga Lima.
+
 > Rafael Caire da Silva.
 
 # Estrutura do Documento
@@ -48,8 +52,10 @@ Nosso projeto tem como finalidade mitigar o problema do desemprego em nosso paí
 Objetivos específicos:
 
 • Mitigar o desemprego no Brasil.
+
 • Empregar pessoas em situação de pobreza.
-• Divulgar vagas de emprego
+
+• Divulgar vagas de emprego.
 
 ## Público-Alvo
 
