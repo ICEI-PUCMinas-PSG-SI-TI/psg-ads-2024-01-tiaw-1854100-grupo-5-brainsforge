@@ -59,7 +59,7 @@ Objetivos específicos:
 
 ## Público-Alvo
 
-Seguindo o linha de raciocínio de nosso projeto e segundo o tema base, Trabalho descente e crescimento econômico. Nosso público-alvo tende a ser qualquer cidadão que viva abaixo da linha da pobreza, desempregados ou pessoa que está dentro do mercado de trabalho, porém possui péssimo salário, alta carga horária, entre outros possíveis fatores.
+Seguindo o linha de raciocínio de nosso projeto e segundo o tema base, Trabalho descente e crescimento econômico. Nosso público-alvo tende a ser qualquer cidadão que viva abaixo da linha da pobreza, desempregados ou pessoa que está dentro do mercado de trabalho, porém possui péssimo salário, alta carga horária, e etc.
 
 # Especificações do Projeto
 
