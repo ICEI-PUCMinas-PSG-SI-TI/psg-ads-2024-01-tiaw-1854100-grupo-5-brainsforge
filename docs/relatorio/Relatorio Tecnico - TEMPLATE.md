@@ -5,21 +5,21 @@
 
 `CURSO` 
 
-......  Análise e desenvolvimento de sistemas ......
+...... Análise e desenvolvimento de sistemas ......
 
 ## Participantes
 
 ...... Os membros do grupo são: ......
 
-> Bruna Luiza Siqueira Borges Matias.
+ Bruna Luiza Siqueira Borges Matias.
 
-> Gabriel Baumgratz de Paula Botaro.
+ Gabriel Baumgratz de Paula Botaro.
 
-> Jáderson Válner Ferreira de Lima.
+ Jáderson Válner Ferreira de Lima.
 
-> João Paulo Said Fraga Lima.
+ João Paulo Said Fraga Lima.
 
-> Rafael Caire da Silva.
+ Rafael Caire da Silva.
 
 # Estrutura do Documento
 
@@ -59,23 +59,8 @@ Objetivos específicos:
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Seguindo o linha de raciocínio de nosso projeto e segundo o tema base, Trabalho descente e crescimento econômico, nosso público-alvo tende a ser qualquer cidadão que viva abaixo da linha da pobreza, desempregados ou pessoa que está dentro do mercado de trabalho, porém possui péssimo salário, alta carga horária, entre outros possíveis fatores.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -86,24 +71,12 @@ Objetivos específicos:
 
 ## Personas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+![(backup)Design thinking board](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/b5b156b7-76c2-4fd3-be4f-5dc469776886)
+![(backup)Design thinking board (2)](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/1424287e-2d1a-4119-8a4f-2e3e397f9c26)
+![(backup)Design thinking board (1)](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/28b79864-58e2-40f6-abc1-d4c64bfc8205)
 
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
- 
+
+
 
 ## Histórias de Usuários
 
@@ -123,7 +96,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
-## Requisitos
+## Requi[(backup)Design thinking board.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/files/14950119/backup.Design.thinking.board.pdf)
+sitos
 
 A tabela que segue apresenta os requisitos funcionais do projeto. 
 
