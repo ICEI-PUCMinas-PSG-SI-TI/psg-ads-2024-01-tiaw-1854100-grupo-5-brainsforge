@@ -63,17 +63,13 @@ Seguindo o linha de raciocínio de nosso projeto e segundo o tema base, Trabalho
 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+De acordo com os dados obtidos das entrevistas e das personas do projeto, podemos especificar que a futura aplicação deverá ter uma tela inicial com feed de notícias, um filtro de pesquisa, cadastro único para empresas, suporte aos usuários, contagem de usuários, servidor com grande capacidade, baixo tempo de resposta, e etc.
 
 ## Personas
 
 ![(backup)Design thinking board](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/b5b156b7-76c2-4fd3-be4f-5dc469776886)
 ![(backup)Design thinking board (2)](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/1424287e-2d1a-4119-8a4f-2e3e397f9c26)
-![(backup)Design thinking board (1)](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/28b79864-58e2-40f6-abc1-d4c64bfc8205)
+![persona 2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/71e46e04-1021-4643-99df-6fce2197b96f)
 
 
 ## Histórias de Usuários
@@ -99,29 +95,26 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 |ID    | Descrição do Requisito                            | Prioridade |
 |------|---------------------------------------------------|------------|
-|RF-001| Permitir o usuário pesquisar determinado assunto  | ALTA       | 
-|RF-002| Exibir um feed de notícias                        | ALTA       |
-|RF-003| Possuir um cadastro específico para empresas      | ALTA       |
-|RF-004| Suporte aos usuários                              | MÉDIA      |
-|RF-005| Contagem de pessoas escritas em um curso          | MÉDIA      |
-|RF-006| Exibir plano de ensino de todos os cursos         | ALTA       |
-|RF-007| Mostrar classificação no processo seletivo        | ALTA       |
-|RF-008| Permitir o administrador remover contas           | ALTA       |
+|   1  | Permitir o usuário pesquisar determinado assunto  | ALTA       | 
+|   2  | Exibir um feed de notícias                        | ALTA       |
+|   3  | Possuir um cadastro específico para empresas      | ALTA       |
+|   4  | Suporte aos usuários                              | MÉDIA      |
+|   5  | Contagem de pessoas escritas em um curso          | MÉDIA      |
+|   6  | Exibir plano de ensino de todos os cursos         | ALTA       |
+|   7  | Mostrar classificação no processo seletivo        | ALTA       |
+|   8  | Permitir o administrador remover contas           | ALTA       |
 
 
 ### Requisitos não-funcionais
 
 |ID     | Descrição do Requisito                            | Prioridade |
 |-------|---------------------------------------------------|------------|
-|RNF-001| Suportar 1000 usuários simultâneos                | ALTA       | 
-|RNF-002| Responsividade funcional em celulares e tablets   | ALTA       |
-|RNF-003| Navegar entre páginas em 5 segundos no máximo     | MÉDIA      |
-|RNF-004| O site deve estar ativo 99% do tempo              | ALTA       |
+|   9   | Suportar 1000 usuários simultâneos                | ALTA       | 
+|   10  | Responsividade funcional em celulares e tablets   | ALTA       |
+|   11  | Navegar entre páginas em 5 segundos no máximo     | MÉDIA      |
+|   12  | O site deve estar ativo 99% do tempo              | ALTA       |
 
 # Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
-> Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
 ## Wireframes
 
