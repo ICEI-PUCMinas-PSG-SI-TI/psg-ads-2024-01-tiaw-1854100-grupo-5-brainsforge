@@ -43,7 +43,7 @@
 
 ## Problema
 
-Desemprego e condições de trabalho ruins  são problemas que sempre existiram em nosso país, geralmente causados devido a problemas políticos como a inflação ou simplesmente por falta de qualificação profissional. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE) mostra que a taxa de desocupação do trimestre encerrado em janeiro de 2024 ficou em 7,6%. Brasil é o 2º país do G20 com maior percentual de pessoas abaixo da linha da pobreza, atrás apenas da Índia. De acordo com o site o globo e segundo pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE). Visivelmente muitas pessoas vivem em condições de extrema pobreza tanto por não ter formação alguma ou por não conseguir entrar no mercado de trabalho com sua qualificação atual. 
+Desemprego e condições de trabalho ruins  são problemas que sempre existiram em nosso país, geralmente causados devido a problemas políticos como a inflação ou simplesmente por falta de qualificação profissional. Segundo o site Agência Brasil, o Instituto Brasileiro de Geografia e Estatística (IBGE) mostra que a taxa de desocupação do trimestre encerrado em janeiro de 2024 ficou em 7,6%. Brasil é o 2º país do G20 com maior percentual de pessoas abaixo da linha da pobreza, atrás apenas da Índia. De acordo com o site o globo e segundo pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE). Visivelmente muitas pessoas vivem em condições de extrema pobreza tanto por não ter formação alguma ou por não conseguir entrar no mercado de trabalho com sua qualificação atual. 
 
 ## Objetivos
 
