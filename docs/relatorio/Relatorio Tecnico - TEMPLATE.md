@@ -38,6 +38,7 @@
   - [Wireframes](#wireframes)
   - [Mapa de navegação](#mapa-de-navegação)
 - [Conclusões](#avaliação-da-aplicação)
+- [Referências bibliográficas](#Referências-bibliográficas)
   
 # Introdução
 
@@ -143,5 +144,14 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 # Conclusões
 
 O intuito desse projeto é tentar diminuir o desemprego no Brasil auxiliando pessoas desempregadas ou com péssimas condições de emprego. Através de cursos online gratuitos e a possibilidade de concorrer a processos seletivos dentro de nossa futura plataforma. Proporcionando um meio para que a população necessitada possa ter condições de trabalho decentes e uma qualidade de vida digna. Sobre a dificuldade podemos citar o problema que é pensar em algo que consiga ajudar verdadeiramente a vida de alguém, e que esse algo seja acessível e de fácil acesso para o público-alvo.  Através de todas as etapas de planejamento conseguimos definir como começar a codificar nosso site já com algumas funcionalidades em mente por exemplo: filtro de pesquisa, feed de notícias, suporte, videoaulas, entre outros. Por nosso conhecimento ser limitado nesse momento, não poderemos ainda implementar recursos ou funcionalidades avançadas, porém concerteza futuramente isso vai mudar e iremos conseguir enriquecer mais a experiência do usuário ao navegar em nosso site.
+
+## Referências bibliográficas
+
+MOURA, Bruno De Freitas . Taxa de desemprego fica em 7,6% no trimestre encerrado em janeiro: Resultado é o melhor para o período desde 2015, diz IBGE. Agência Brasil, 2024. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2024-02/taxa-de-desemprego-fica-em-76-no-trimestre-encerrado-em-janeiro#:~:text=A%20taxa%20de%20desocupa%C3%A7%C3%A3o%20do,2023%20(8%2C4%25). Acesso em: 29 fev. 2024. 
+
+NALIN, Carolina . Brasil é o 2º país do G20 com maior percentual de pessoas abaixo da linha da pobreza, atrás apenas da Índia: Indicador teve melhora no pós-pandemia, mas ainda há cerca de 3,5% dos brasileiros extremamente pobres. Governo brasileiro quer Aliança Global contra Pobreza. O Globo, 2024. Disponível em: https://oglobo.globo.com/mundo/g20-no-brasil/noticia/2024/04/09/brasil-e-o-2o-pais-do-g20-com-maior-percentual-de-pessoas-abaixo-da-linha-da-pobreza-atras-apenas-da-india.ghtml. Acesso em: 09 abr. 2024. 
+
+
+
 
 
