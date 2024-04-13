@@ -123,12 +123,41 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
                                               
 ![tela inicial](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6485d5d2-fc24-4a81-b093-76e7a25a1edf)
 
+-Tela de cadastro-
+
+![tela cadastro](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6cb7b9b3-a3d1-4670-ab4c-696fdee1b75d)
+
 -Tela de Pesquisa-
 
 ![tela de pesquisa](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/97256bbd-5c66-42ea-8964-969ada1db4fb)
 
+-Tela de suporte-
 
+![suporte](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/5c0ef758-a026-468c-b45e-ece24f01e431)
 
+-Tela de certificados-
+
+![certificados](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/18369c47-5c64-4e80-a49c-5f7d06c39418)
+
+-Tela de recuperação de conta-
+
+![recuperar](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/35d00180-7212-4096-a94a-e6cfa4b3c773)
+
+-Tela de feedback-
+
+![sugestões](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/fe7d6a31-aeff-45a1-8c8a-fa20bedadac0)
+
+-Tela de perguntas-
+
+![curso](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/f1fe397f-133d-4aac-a7fc-0c4b3b87b0ea)
+
+-Tela de módulos do curso-
+
+![módulos](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6a97b3c4-22ae-42e3-b486-acc54c8f1fd9)
+
+-Tela Meus cursos-
+
+![meus cursos](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/4af24271-0cc2-4c3e-88c0-49f86054f122)
 
 ## Mapa de navegação
 
@@ -136,6 +165,7 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 > Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
 > um usuário deve realizar para utilizar todas as características do seu sistema. 
+
 
 
 > **Exemplo de Diagrama (opcional, pode ser em texto)**
