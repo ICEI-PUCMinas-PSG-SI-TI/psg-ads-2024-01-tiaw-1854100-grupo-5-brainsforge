@@ -129,7 +129,7 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 -Tela de Pesquisa-
 
-![tela de pesquisa](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/97256bbd-5c66-42ea-8964-969ada1db4fb)
+![tela pesquisa](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/ffa16dd2-f930-4a1b-833f-5281d92c1472)
 
 -Tela de suporte-
 
