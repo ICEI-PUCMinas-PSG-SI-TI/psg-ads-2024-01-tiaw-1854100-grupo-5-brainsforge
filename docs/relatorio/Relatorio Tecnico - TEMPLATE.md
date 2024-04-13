@@ -161,15 +161,8 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 ## Mapa de navegação
 
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
+![mapa-navegação](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/17c17f37-1b73-45cd-b853-f866b47d3083)
 
-> Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
-> um usuário deve realizar para utilizar todas as características do seu sistema. 
-
-
-
-> **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
 
 # Conclusões
 
