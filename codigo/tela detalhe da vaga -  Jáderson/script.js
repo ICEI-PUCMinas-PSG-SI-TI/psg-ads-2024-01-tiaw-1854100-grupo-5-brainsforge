@@ -18,7 +18,7 @@ function Ler_dados() {
           empresa: "Acme",
           vaga: "Motorista de utilitários",
           funcao: "Dirigir e manobrar veículos e transportar pessoas, cargas ou valores. Realizar verificações e manutenções básicas do veículo.",
-          requisitos: "Ensino médio completo (CNH) Categoria D",
+          requisitos: "Ensino médio completo, (CNH) Categoria D",
           salario: "2344,23",
           carga_h: "8 horas",
           n_vagas: 13
@@ -80,6 +80,7 @@ function Imprimir_dados() {
         <h6>${objDados.informacao[i].n_vagas}</h6>
       </article>
 
+
       <button id="btnLink">Cadastrar-se</button>
     </section>
 
@@ -93,7 +94,6 @@ function Imprimir_dados() {
 onload = () => {
   Imprimir_dados();
 }
-
 
 
 
