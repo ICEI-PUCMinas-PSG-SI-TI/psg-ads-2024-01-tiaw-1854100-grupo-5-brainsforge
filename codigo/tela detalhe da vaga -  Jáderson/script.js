@@ -67,7 +67,7 @@ function Imprimir_dados() {
 
       <article class="item">
       <h6>Salário:</h6>
-      <h6>${objDados.informacao[i].salario}</h6>
+      <h6>R$ ${objDados.informacao[i].salario}</h6>
     </article>
 
     <article class="item">
