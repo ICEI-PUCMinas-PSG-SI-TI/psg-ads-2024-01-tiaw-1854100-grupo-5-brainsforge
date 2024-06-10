@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/login-admin.css">
+    <script src="https://kit.fontawesome.com/4dc726c735.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+
+        <h3>logo</h3>
+
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Pesquisa</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main class="content">
+
+        <section class="usuarios">
+
+            <h4>Usuários cadastrados</h4>
+
+            <div id="tela">
+
+                
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <h4>Todos os direitos reservados ©</h4>
+
+    </footer>
+
+    <script src="/assets/scripts/login-admin.js"></script>
+
+    <script>
+        
+        function Exibir_users() {
+            let str_html = "";
+            let obj_dados = Ler_dados();
+            let tela = document.getElementById("tela");
+              
+            for (let i = 0; i < obj_dados.users.length; i++) {
+                users = obj_dados.users[i];
+             
+                str_html +=
+                    `
+                <div id="tela">
+
+              <article class="card_user">
+                <div>
+                    <h6>Usuário:${users.usuario}</h6>
+                    <h6>Email: ${users.email}</h6>
+                    <h6>Senha: ${users.senha}</h6>
+                </div>
+                <div class="excluir">
+                   <button id="btn_excluir" onclick="Excluir_usuario(${i})" title="excluir"><i class="fa-solid fa-x"></i></button>
+                </div>
+              </article>
+            
+            </div>
+
+               `;
+            }
+
+            tela.innerHTML = str_html;
+        }
+
+        function Excluir_usuario(index) {
+            let obj_dados = Ler_dados();
+            obj_dados.users.splice(index, 1);
+
+            Salvar_dados(obj_dados);
+            Exibir_users();
+        }
+
+        onload = () =>{
+            Exibir_users();
+        }
+
+    </script>
+
+  
+</body>
+
+</html>
