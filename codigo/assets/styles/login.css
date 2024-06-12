@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.formulario{
+    background:#3d3d3d;
+    box-sizing:border-box;
+    flex-flow:column wrap;
+    padding:30px;
+    border-radius:12px;
+    border:groove rgba(0, 0, 0, 0.366);
+    color:white;
+}
+
+body{
+    background-image:url("/assets/img/city.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+main{
+    background: rgba(0, 0, 0, 0.77);
+    width:32%;
+    margin: 50px auto;
+    padding:20px;
+    border-radius:12px;
+    box-sizing:border-box;
+}
+
+main h3 {
+   text-align:center;
+   margin:30px 0px 50px 0px;
+}
+
+#btn_login {
+    background: #484F6E;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-color: #484F6E;
+}
+
+.formulario input {
+    margin-bottom: 20px;
+    margin-top: 3px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+#senha{
+    margin-bottom:0px;
+}
+
+.formulario h5 {
+    text-align: center;
+    margin-top: 50px;
+    font-size:16px;
+}
+
+main a {
+    text-decoration: none;
+    color: #3d87ff;
+}
+
+.forgot_password {
+    font-size: 13px;
+}
+
+.formulario div{
+    display:flex;
+    justify-content:space-between;
+}
+
+#msg_erro {
+    margin:50px auto 30px auto;
+}
+
+@media screen and (max-width:768px){
+    main{
+        width:90%;
+    }
+
+    .formulario{
+        padding:25px;
+    }
+
+    body{
+        background-size:100% 100%;
+    }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:769px){
+    main{
+        width:47%;
+    }
+
+    .formulario{
+        padding:25px;
+    }
+
+    body{
+        background-size:100% 100%;
+    }
+
+}
