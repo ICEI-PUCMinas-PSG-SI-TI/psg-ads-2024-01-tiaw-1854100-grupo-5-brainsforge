@@ -29,8 +29,11 @@
       <label id="label_senha">Senha</label>
       <input type="password" id="senha">
       <h5 id="msg_erro"></h5>
-      <button type="button" id="btn_login">Continuar com email</button>
-      <h5>Não possui uma conta? <span><a href="#">Cadastre-se</a></span></h5>
+      <h5 class="msg_login">Quem está logando?</h5>
+      <section class="btn_pessoa-empresa" id="btns">
+      </section>
+      <button type="button" id="btn_login">Continuar</button>
+      <h5>Não possui uma conta? <span><a href="cadastroEmpresaUsuario.html">Cadastre-se</a></span></h5>
     </form>
 
   </main>
@@ -44,23 +47,45 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-  <script src="/assets/scripts/login-admin.js"></script>
+  <script src="/assets/scripts/login-admin-perfil.js"></script>
 
   <script>
+    var usuario;
+
     function Login() {
       let senha = document.getElementById("senha").value;
       let email_user = document.getElementById("email").value;
       let error = document.getElementById("msg_erro");
       let email_label = document.getElementById("label_email");
       let senha_label = document.getElementById("label_senha");
+      let obj_dados = Ler_dados(usuario);
 
-      let obj_dados = Ler_dados();
+      let adm = {
+      usuario: "admin",
+      email: "admin@gmail.com",
+      senha: "miojo123"
+    }
 
-      let email_true = obj_dados.users.find(function (elem) { return elem.email == email_user });
-      let user_true = obj_dados.users.find(function (elem) { return elem.usuario == email_user })
-      let senha_true = obj_dados.users.find(function (elem) { return elem.senha == senha });
+      if (usuario == 0) {
+        var email_true = obj_dados.usuario.find(function (elem) { return elem.email == email_user });
+        var user_true = obj_dados.usuario.find(function (elem) { return elem.nome == email_user });
+        var senha_true = obj_dados.usuario.find(function (elem) { return elem.senha == senha });
+      }
 
-      if (senha == "" || email_user == "") {
+      else {
+        var email_true = obj_dados.empresa.find(function (elem) { return elem.email == email_user });
+        var user_true = obj_dados.empresa.find(function (elem) { return elem.nome == email_user });
+        var senha_true = obj_dados.empresa.find(function (elem) { return elem.senha == senha });
+      }
+
+      if (senha == adm.senha && (email_user == adm.usuario || email_user == adm.email)) {
+        email_label.style.color = "white";
+        senha_label.style.color = "white";
+        error.innerText = "";
+        location.href = "admin.html";
+      }
+
+      else if (senha == "" || email_user == "") {
         email_label.style.color = "rgb(255, 109, 109)";
         senha_label.style.color = "rgb(255, 109, 109)";
         error.innerText = "Preencha todos os campos!";
@@ -75,14 +100,7 @@
       else if (senha_true == undefined) {
         senha_label.style.color = "rgb(255, 109, 109)";
         email_label.style.color = "white";
-        error.innerText = "Senha incorreta!";  
-      }
-
-      if (senha_true && (email_user == "admin" || email_user == "admin@gmail.com")) {
-        email_label.style.color = "white";
-        senha_label.style.color = "white";
-        error.innerText = "";
-        location.href = "admin.html";
+        error.innerText = "Senha incorreta!";
       }
 
       else if ((email_true || user_true) && senha_true) {
@@ -91,14 +109,37 @@
         error.innerText = "";
         location.href = "home.html";
       }
-
     }
 
-    function Salvar_dados(accounts13) {
-      localStorage.setItem("accounts13", JSON.stringify(accounts13));
+    function Alternar_botoes(botao) {
+      let str_html = "";
+      let classe1 = "";
+      let classe2 = "";
+
+      if (botao == 0) {
+        classe1 = "btn_ativo";
+        classe2 = "btn_desativo";
+      }
+
+      else {
+        classe1 = "btn_desativo";
+        classe2 = "btn_ativo";
+      }
+
+      str_html =
+        `
+       <button class="${classe1}" type="button" id="btn_pessoa" onclick="Alternar_botoes(0)">Pessoa</button>
+        <button class="${classe2}" type="button" id="btn_empresa" onclick="Alternar_botoes(1)">Empresa</button>
+      `;
+
+      document.getElementById("btns").innerHTML = str_html;
+      usuario = botao;
     }
 
     document.getElementById("btn_login").addEventListener('click', Login);
+    onload = () => {
+      Alternar_botoes(0);
+    }
   </script>
 
 </body>

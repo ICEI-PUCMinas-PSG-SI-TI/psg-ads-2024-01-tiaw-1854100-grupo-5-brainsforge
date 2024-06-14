@@ -53,11 +53,6 @@ body{
     color:white;
 }
 
-header img{
-    width:70px; 
-}
-
-
 .item{
     background:#303030;
     color:white;
@@ -75,7 +70,6 @@ header img{
 .item h6:first-child{
   margin-right:10px;
 }
-
 
 
 .funcao{

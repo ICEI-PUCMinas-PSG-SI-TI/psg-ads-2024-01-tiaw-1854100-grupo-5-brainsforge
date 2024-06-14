@@ -5,50 +5,50 @@ let cep = document.getElementById('cep')
 let senha = document.getElementById('senha')
 let confirmarSenha = document.getElementById('confirmarSenha')
 let selecao = document.getElementById('seletor')
-let cadastroUsuario = []
-let cadastroEmpresa = []
+let objUsuario = { usuario:[] };
+let objEmpresa = { empresa:[] };
 
 
 function Clicar() {
-    if(nome.value == '' || cpfCnpj.value == '' || email.value == '' || cep.value == '' || senha.value == ''|| confirmarSenha.value == '') {
+    if (nome.value == '' || cpfCnpj.value == '' || email.value == '' || cep.value == '' || senha.value == '' || confirmarSenha.value == '') {
         alert('Preencha todos os campos!')
     }
-    else if(senha.value != confirmarSenha.value) {
+    else if (senha.value != confirmarSenha.value) {
         alert('As senhas não batem')
     }
-    else if(cep.value.length < 8 || cep.value.length > 8) {
+    else if (cep.value.length < 8 || cep.value.length > 8) {
         alert('CEP inválido!')
     }
-    else if(email.value.endsWith("@")) {
+    else if (email.value.endsWith("@")) {
         alert('Digite um email válido!')
     }
     else {
-        if(seletor.value == 'cpf') {
-            if(cpfCnpj.value.length < 11 || cpfCnpj.value.length > 11) {
+        if (seletor.value == 'cpf') {
+            if (cpfCnpj.value.length < 11 || cpfCnpj.value.length > 11) {
                 alert('CPF inválido!')
-            } 
+            }
             else {
                 let user = criarUsuario()
-                cadastroUsuario.push(user)
+                objUsuario.usuario.push(user)
                 salvarDados()
                 alert('Cadastro feito com sucesso!')
             }
-            
+
         }
         else {
-            if(cpfCnpj.value.length < 14 || cpfCnpj.value.length > 14) {
+            if (cpfCnpj.value.length < 14 || cpfCnpj.value.length > 14) {
                 alert('CNPJ inválido!')
-            } 
+            }
             else {
                 let emp = criarEmpresa()
-                cadastroEmpresa.push(emp)
+                objEmpresa.empresa.push(emp)
                 salvarDados()
                 alert('Cadastro feito com sucesso!')
             }
-            
+
         }
     }
-    
+
 }
 
 function criarUsuario() {
@@ -72,12 +72,15 @@ function criarEmpresa() {
 }
 
 function salvarDados() {
-    let listaJSONuser = JSON.stringify(cadastroUsuario)
-    let listaJSONempresa = JSON.stringify(cadastroEmpresa)
-    localStorage.setItem('usuarios', listaJSONuser)
-    localStorage.setItem('empresas', listaJSONempresa)
+    let listaJSONuser = JSON.stringify(objUsuario)
+    console.log(objUsuario);
+    console.log(objEmpresa);
+    let listaJSONempresa = JSON.stringify(objEmpresa)
+    localStorage.setItem('lista_usuarios', listaJSONuser)
+    localStorage.setItem('lista_empresas', listaJSONempresa)
 }
-$(function(){
+
+$(function () {
     $('#header').load("cabecalho.html");
     $('#footer').load("rodape.html");
 });
