@@ -73,8 +73,6 @@ function criarEmpresa() {
 
 function salvarDados() {
     let listaJSONuser = JSON.stringify(objUsuario)
-    console.log(objUsuario);
-    console.log(objEmpresa);
     let listaJSONempresa = JSON.stringify(objEmpresa)
     localStorage.setItem('lista_usuarios', listaJSONuser)
     localStorage.setItem('lista_empresas', listaJSONempresa)

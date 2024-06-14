@@ -18,43 +18,78 @@
 
 <body>
 
-    <header id="header">
+    <header id="header"></header>
 
-    </header>
+    <main>
+        <section class="btn_pessoa-empresa" id="btns"></section>
+        <section class="usuarios" id="tela">
 
-    <main id="tela">
+        </section>
 
     </main>
 
-    <footer id="footer">
-
-    </footer>
-
+    <footer id="footer"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <script src="/assets/scripts/login-admin.js"></script>
-   
+    <script src="/assets/scripts/login-admin-perfil.js"></script>
+
 
     <script>
-        
-        function Exibir_users() {
+        var usuarios;
+        function Alternar_botoes(botao) {
+
             let str_html = "";
-            let obj_dados = Ler_dados();
+            let classe1 = "";
+            let classe2 = "";
+
+            if (botao == 0) {
+                classe1 = "btn_ativo";
+                classe2 = "btn_desativo";
+            }
+
+            else {
+                classe1 = "btn_desativo";
+                classe2 = "btn_ativo";
+            }
+
+            str_html =
+                `
+       <button class="${classe1}" type="button" id="btn_pessoa" onclick="Alternar_botoes(0)">Pessoa</button>
+        <button class="${classe2}" type="button" id="btn_empresa" onclick="Alternar_botoes(1)">Empresa</button>
+      `;
+
+            document.getElementById("btns").innerHTML = str_html;
+            usuarios = botao;
+
+            Exibir_users(usuarios);
+        }
+
+        function Exibir_users(usuario) {
+            let str_html = "";
+            let obj_dados = Ler_dados_admin(usuario);
             let tela = document.getElementById("tela");
-              
-            for (let i = 0; i < obj_dados.users.length; i++) {
-                users = obj_dados.users[i];
-             
-                str_html +=
-                    `
+
+            if (usuario == 0) {
+                str_html = "<h5>Usuarios cadastrados</h5>";
+
+                if (obj_dados.usuario.length == 0) {
+                 str_html="<h6>Nenhum usuário cadastrado</h6>";
+                }
+
+                else{
+                    for (let i = 0; i < obj_dados.usuario.length; i++) {
+                    users = obj_dados.usuario[i];
+
+                    str_html +=
+                        `
                 <div id="tela">
 
               <article class="card_user">
                 <div>
-                    <h6>Usuário:${users.usuario}</h6>
+                    <h6>Usuário:${users.nome}</h6>
                     <h6>Email: ${users.email}</h6>
                     <h6>Senha: ${users.senha}</h6>
                 </div>
@@ -66,25 +101,71 @@
             </div>
 
                `;
+                }
+                }
+
+                tela.innerHTML = str_html;
             }
 
-            tela.innerHTML = str_html;
+            else {
+                str_html = "<h5>Empresas cadastradas</h5>"
+
+                if (obj_dados.empresa.length == 0) {
+                 str_html="<h6>Nenhuma empresa cadastrada</h6>"
+                }
+
+                else{
+
+                    for (let i = 0; i < obj_dados.empresa.length; i++) {
+                    users = obj_dados.empresa[i];
+                    str_html +=
+                        `
+                <div id="tela">
+
+              <article class="card_user">
+                <div>
+                    <h6>Empresa: ${users.nome}</h6>
+                    <h6>Email: ${users.email}</h6>
+                    <h6>Senha: ${users.senha}</h6>
+                </div>
+                <div class="excluir">
+                   <button id="btn_excluir" onclick="Excluir_usuario(${i})" title="excluir"><i class="fa-solid fa-x"></i></button>
+                </div>
+              </article>
+            
+            </div>
+
+               `;
+                }
+                }
+                
+                tela.innerHTML = str_html;
+            }
+
         }
 
         function Excluir_usuario(index) {
-            let obj_dados = Ler_dados();
-            obj_dados.users.splice(index, 1);
+            let obj_dados = Ler_dados_admin(usuarios);
 
-            Salvar_dados(obj_dados);
-            Exibir_users();
+            if (usuarios == 0) {
+                obj_dados.usuario.splice(index, 1);
+                Salvar_dados(obj_dados, usuarios);
+                Exibir_users(usuarios);
+            }
+
+            else {
+                obj_dados.empresa.splice(index, 1);
+                Salvar_dados(obj_dados, usuarios);
+                Exibir_users(usuarios);
+            }
+
         }
 
-        onload = () =>{
-            Exibir_users();
+        onload = () => {
+            Alternar_botoes(0);
         }
 
     </script>
-
 
 </body>
 

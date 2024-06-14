@@ -3,7 +3,6 @@ $(function () {
   $('#footer').load("rodape.html")
 });
 
-
 function Ler_dados(storage) {
 
   if (storage == 0) {
@@ -12,6 +11,7 @@ function Ler_dados(storage) {
 
     if (str_dados) {
       objDados = JSON.parse(str_dados);
+
       return objDados;
     }
   }
@@ -28,7 +28,39 @@ function Ler_dados(storage) {
 
 }
 
-function Salvar_dados(lista_usuarios) {
-  localStorage.setItem('lista_usuarios', JSON.stringify(lista_usuarios));
+function Ler_dados_admin(storage) {
+
+  if (storage == 0) {
+    let str_dados = localStorage.getItem('lista_usuarios');
+    let objDados = {};
+
+    if (str_dados) {
+      objDados = JSON.parse(str_dados);
+
+      return objDados;
+    }
+  }
+
+  else {
+    let str_dados = localStorage.getItem('lista_empresas');
+    let objDados = {};
+
+    if (str_dados) {
+      objDados = JSON.parse(str_dados);
+      return objDados;
+    }
+  }
+
 }
 
+function Salvar_dados(obj, usuario) {
+  lista_usuarios = obj;
+  lista_empresas = obj;
+  
+  if (usuario == 0) {
+    localStorage.setItem("lista_usuarios", JSON.stringify(lista_usuarios));
+  }
+  else {
+    localStorage.setItem("lista_empresas", JSON.stringify(lista_empresas));
+  }
+}

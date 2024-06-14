@@ -3,6 +3,8 @@
     padding:0;
 }
 
+
+
 body{
     background-image:url("/assets/img/city.jpg");
     background-size:100% 100%;
@@ -20,17 +22,43 @@ main{
 }
 
 .usuarios {
-    display:flex;
+    background:#3d3d3d;
+    box-sizing:border-box;
     flex-flow:column wrap;
-    background: rgba(0, 0, 0, 0.828);
-    font-family: Arial, Helvetica, sans-serif;
-    height: 80%;
-    width: 50%;
-    border-radius: 3vh;
-    padding: 50px 55px 50px 55px;
-    box-sizing: border-box;
-    text-align:center;
+    padding:30px;
+    border-radius:12px;
+    border:groove rgba(0, 0, 0, 0.366);
+    color:white;
 }
+
+.btn_pessoa-empresa{
+    display:grid;
+    grid-template-columns:30% 30%;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:30px;
+}
+
+.btn_ativo{
+    color:white!important;
+    background: #484F6E!important;
+}
+
+.btn_desativo{
+    color:black;
+    background: rgb(159, 159, 159);
+}
+
+#btn_pessoa{
+    grid-column:1/2;
+    grid-row:1;
+}
+
+#btn_empresa{
+    grid-column:2/3;
+    grid-row:1;
+}
+
 
 .card_user{
     background:rgb(72, 72, 72);
