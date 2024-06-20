@@ -19,8 +19,6 @@
 
  João Paulo Said Fraga Lima.
 
- Rafael Caire da Silva.
-
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -48,7 +46,7 @@ Desemprego e condições de trabalho ruins  são problemas que sempre existiram 
 
 ## Objetivos
 
-Nosso projeto tem como finalidade mitigar o problema do desemprego em nosso país auxiliando pessoas desempregadas ou com péssimas condições de emprego. Através de cursos online gratuitos e a possibilidade de concorrer a processos seletivos dentro de nossa futura plataforma. Tendo a possibilidade do cadastro de empresas no site que irão divulgar possíveis vagas de emprego disponíveis em sua corporação.
+Nosso projeto tem como finalidade mitigar o problema do desemprego em nosso país, possibilitando que pessoas desempregadas possam se candidatar à vagas de emprego disponibilizadas por empresas em nosso site. 
 
 Objetivos específicos:
 
@@ -64,7 +62,7 @@ Seguindo o linha de raciocínio de nosso projeto e segundo o tema base, Trabalho
 
 # Especificações do Projeto
 
-De acordo com os dados obtidos das entrevistas e das personas do projeto, podemos especificar que a futura aplicação deverá ter uma tela inicial com feed de notícias, um filtro de pesquisa, cadastro único para empresas, suporte aos usuários, contagem de usuários, servidor com grande capacidade, baixo tempo de resposta, e etc.
+Nosso projeto tem como especificação o cadastro de usuários, empresas, vagas de emprego e os candidatos dessas vagas. Além da listagem das vagas e dos usuários cadastrados em determinada vaga. 
 
 ## Personas
 
@@ -96,30 +94,28 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 |ID    | Descrição do Requisito                            | Prioridade |
 |------|---------------------------------------------------|------------|
-|   1  | Permitir o usuário pesquisar determinado assunto  | ALTA       | 
-|   2  | Exibir um feed de notícias                        | ALTA       |
+|   1  | Permitir o usuário pesquisar pela vaga desejada   | ALTA       | 
+|   2  | Exibir as vagas cadastradas no sistema            | ALTA       |
 |   3  | Possuir um cadastro específico para empresas      | ALTA       |
-|   4  | Suporte aos usuários                              | MÉDIA      |
-|   5  | Contagem de pessoas escritas em um curso          | MÉDIA      |
-|   6  | Exibir plano de ensino de todos os cursos         | ALTA       |
-|   7  | Mostrar classificação no processo seletivo        | ALTA       |
-|   8  | Permitir o administrador remover contas           | ALTA       |
+|   4  | Possuir um cadastro de candidatos para as vagas   | MÉDIA      |
+|   5  | Listar candidatos cadastrados em determinada vaga | ALTA       |
+|   6  | Permitir o administrador remover contas           | MÉDIA      |
 
 
 ### Requisitos não-funcionais
 
 |ID     | Descrição do Requisito                            | Prioridade |
 |-------|---------------------------------------------------|------------|
-|   9   | Suportar 1000 usuários simultâneos                | ALTA       | 
-|   10  | Responsividade funcional em celulares e tablets   | ALTA       |
-|   11  | Navegar entre páginas em 5 segundos no máximo     | MÉDIA      |
-|   12  | O site deve estar ativo 99% do tempo              | ALTA       |
+|   1   | Suportar 1000 usuários simultâneos                | ALTA       | 
+|   2   | Responsividade funcional em celulares e tablets   | ALTA       |
+|   3   | Navegar entre páginas em 5 segundos no máximo     | MÉDIA      |
+|   4   | O site deve estar ativo 99% do tempo              | ALTA       |
 
 # Projeto da Solução
 
 ## Wireframes
 
--Tela Inicial-
+-Tela de listagem e pesquisa de vagas-
                                               
 ![tela inicial](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6485d5d2-fc24-4a81-b093-76e7a25a1edf)
 
@@ -166,7 +162,7 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 
 # Conclusões
 
-O intuito desse projeto é tentar diminuir o desemprego no Brasil auxiliando pessoas desempregadas ou com péssimas condições de emprego. Através de cursos online gratuitos e a possibilidade de concorrer a processos seletivos dentro de nossa futura plataforma. Proporcionando um meio para que a população necessitada possa ter condições de trabalho decentes e uma qualidade de vida digna. Sobre a dificuldade podemos citar o problema que é pensar em algo que consiga ajudar verdadeiramente a vida de alguém, e que esse algo seja acessível e de fácil acesso para o público-alvo.  Através de todas as etapas de planejamento conseguimos definir como começar a codificar nosso site já com algumas funcionalidades em mente por exemplo: filtro de pesquisa, feed de notícias, suporte, videoaulas, entre outros. Por nosso conhecimento ser limitado nesse momento, não poderemos ainda implementar recursos ou funcionalidades avançadas, porém concerteza futuramente isso vai mudar e iremos conseguir enriquecer mais a experiência do usuário ao navegar em nosso site.
+O intuito desse projeto é tentar diminuir o desemprego no Brasil possibilitando que pessoas desempregadas possam se candidatar à vagas de emprego disponibilizadas por empresas em nosso site. Proporcionando um meio para que a população necessitada possa ter condições de trabalho decentes e uma qualidade de vida digna. Sobre a dificuldade podemos citar o problema que é pensar em algo que consiga ajudar verdadeiramente a vida de alguém, e que esse algo seja acessível e de fácil acesso para o público-alvo. Através de todas as etapas de planejamento conseguimos definir como começar a codificar nosso site já com algumas funcionalidades em mente por exemplo: filtro de pesquisa, feed de notícias, suporte, videoaulas, entre outros. Por nosso conhecimento ser limitado nesse momento, não poderemos ainda implementar recursos ou funcionalidades avançadas, porém concerteza futuramente isso vai mudar e iremos conseguir enriquecer mais a experiência do usuário ao navegar em nosso site.
 
 ## Referências bibliográficas
 
