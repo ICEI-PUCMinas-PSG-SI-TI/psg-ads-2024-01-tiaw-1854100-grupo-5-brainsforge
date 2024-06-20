@@ -1,6 +1,6 @@
 # Nome do projeto
 Nome: BrainsForge
-Objetivo: Produzir um site de cursos online gratuitos e cada curso será mostrado a carreira que aquela "formação" pode proporcionar, além de outras funcionalidades que podem ser adicionadas no futuro.
+Objetivo: Produzir um site que divulgue vagas de emprego cadastradas por empresas, e que pessoas interessadas possam se candidatar para concorrer a vaga desejada.
 
 ## Alunos integrantes da equipe
 
