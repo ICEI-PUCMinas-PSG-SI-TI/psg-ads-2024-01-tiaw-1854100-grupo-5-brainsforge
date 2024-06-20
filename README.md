@@ -1,6 +1,4 @@
-# Nome do projeto
-Nome: BrainsForge
-
+# BrainsForge
 
 Objetivo: Produzir um site que divulgue vagas de emprego cadastradas por empresas, e que pessoas interessadas possam se candidatar para concorrer a vaga desejada.
 
