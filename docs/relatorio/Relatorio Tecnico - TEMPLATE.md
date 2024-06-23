@@ -117,44 +117,47 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 ## Wireframes
 
 -Tela de listagem e pesquisa de vagas-
+
+Aluno(a): Jáderson
                                               
-![tela inicial](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6485d5d2-fc24-4a81-b093-76e7a25a1edf)
+![wireframe 1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/9ba912e4-9ad1-4f9b-9691-55b319f78fe4)
+
+-Tela de detalhes da vaga-
+
+Aluno(a): Jáderson
+
+![wireframe 2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/2788431d-c2a9-4637-b4ae-2e0a43f92e5c)
 
 -Tela de cadastro-
 
-![tela cadastro](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6cb7b9b3-a3d1-4670-ab4c-696fdee1b75d)
+Aluno(a): Bruna
 
--Tela de Pesquisa-
+![wireframe 4](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/3ad9a0be-87b3-4d36-9b6c-0b718f34431e)
 
-![tela pesquisa](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/ffa16dd2-f930-4a1b-833f-5281d92c1472)
+-Tela de cadastro de vagas-
 
--Tela de suporte-
+Aluno(a): Bruna
 
-![suporte](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/5c0ef758-a026-468c-b45e-ece24f01e431)
+![wireframe 6](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/b6987ff6-6e0a-4445-a848-108a2b70afd4)
 
--Tela de certificados-
+-Tela de perfil-
 
-![certificados](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/18369c47-5c64-4e80-a49c-5f7d06c39418)
+Aluno(a): Jáderson
 
--Tela de recuperação de conta-
+![wireframe 5](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/7a67260e-09ca-4670-8e33-af2a9eae08c0)
 
-![recuperar](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/35d00180-7212-4096-a94a-e6cfa4b3c773)
+-Tela de login-
 
--Tela de feedback-
+Aluno(a): Jáderson
 
-![sugestões](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/fe7d6a31-aeff-45a1-8c8a-fa20bedadac0)
+![wireframe 3](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/bff506fd-10c3-4390-be02-eba028004b30)
 
--Tela de perguntas-
+-Tela admin-
 
-![curso](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/f1fe397f-133d-4aac-a7fc-0c4b3b87b0ea)
+Aluno(a): Jáderson
 
--Tela de módulos do curso-
+![wireframe 7](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/2e1a74e5-d92b-4c30-a2e0-601716e4b387)
 
-![módulos](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/6a97b3c4-22ae-42e3-b486-acc54c8f1fd9)
-
--Tela Meus cursos-
-
-![meus cursos](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/4af24271-0cc2-4c3e-88c0-49f86054f122)
 
 ## Mapa de navegação
 
