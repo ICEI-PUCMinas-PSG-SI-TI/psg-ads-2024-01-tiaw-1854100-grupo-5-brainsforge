@@ -161,8 +161,7 @@ Aluno(a): Jáderson
 
 ## Mapa de navegação
 
-![mapa-navegação](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-5-brainsforge/assets/160531175/17c17f37-1b73-45cd-b853-f866b47d3083)
-
+Link para mapa de navegação no miro: https://miro.com/app/board/uXjVK5XusxM=/?share_link_id=492722302704
 
 # Conclusões
 
