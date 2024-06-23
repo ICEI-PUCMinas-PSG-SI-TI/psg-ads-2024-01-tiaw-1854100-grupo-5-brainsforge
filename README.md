@@ -20,4 +20,4 @@ As tarefas estão listadas agora na aba projects.
 
 
 ## Instruções para uso
-link figma mapa de navegação  https://www.figma.com/file/YXX3sISNfY28RosCKqevCe/Untitled?type=design&fuid=1349812417245288250
+link para mapa de navegação no miro:  https://miro.com/app/board/uXjVK5XusxM=/?share_link_id=492722302704
