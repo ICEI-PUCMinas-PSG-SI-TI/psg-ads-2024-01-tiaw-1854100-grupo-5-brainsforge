@@ -78,7 +78,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                |PARA ... `MOTIVO/VALOR`                              |
 |--------------------|---------------------------------------------------|-----------------------------------------------------|
 |Ana Silva           |  Filtro de pesquisa                               |  Encontrar determinado curso ou vaga disponível     |
-|Empresa             |  Feed de notícias                                 |  Divulgar vagas de emprego                          |
+|Empresa             |  Feed de oportunidades                                |  Divulgar vagas de emprego                          |
 |Empresa             |  Cadastro específico                              |  Preencher informações adicionais da empresa        |
 |Marcos Cardoso      |  Cadastro de candidatos                           |  Concorrer a vaga desejada                          |
 |Empresa             |  Listagem de candidatos                           |  Saber quem se candidatou na vaga que cadastrei     |
