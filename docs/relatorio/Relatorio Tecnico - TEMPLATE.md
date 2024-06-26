@@ -80,10 +80,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana Silva           |  Filtro de pesquisa                               |  Encontrar determinado curso ou vaga disponível     |
 |Empresa             |  Feed de notícias                                 |  Divulgar vagas de emprego                          |
 |Empresa             |  Cadastro específico                              |  Preencher informações adicionais da empresa        |
-|Marcos Cardoso      |  Suporte                                          |  Relatar dúvidas e problemas durante o uso do site  |
-|Administrador       |  Exibir número de pessoas escritas em um curso    |  Medir a popularidade e qualidade dos cursos        |
-|Alex Brandão        |  Ver plano de ensino do curso                     |  Saber o conteúdo de um curso antes de entrar nele  |
-|Ana Silva           |  Descobrir minha posição em um processo seletivo  |  Conseguir ver minhas chances de obter a vaga       |
+|Marcos Cardoso      |  Cadastro de candidatos                           |  Concorrer a vaga desejada                          |
+|Empresa             |  Listagem de candidatos                           |  Saber quem se candidatou na vaga que cadastrei     |
+|Alex Brandão        |  Listagem de vagas no perfil                      |  Ver as vagas em que estou concorrendo              |
 |Administrador       |  Remover o cadastro de determinada empresa        |  Impedir que empresas divulguem informações falsas  |
 
 ## Requisitos
@@ -103,6 +102,8 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 |   7  | Exibir as vagas em que o usuário se cadastrou     | ALTA       |
 
 
+
+
 ### Requisitos não-funcionais
 
 |ID     | Descrição do Requisito                            | Prioridade |
@@ -111,6 +112,7 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 |   2   | Responsividade funcional em celulares e tablets   | ALTA       |
 |   3   | Navegar entre páginas em 5 segundos no máximo     | MÉDIA      |
 |   4   | O site deve estar ativo 99% do tempo              | ALTA       |
+|   5   | O site deve funcionar em pelo menos 2 navegadores | ALTA       |
 
 # Projeto da Solução
 
