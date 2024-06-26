@@ -96,7 +96,7 @@ A tabela que segue apresenta os requisitos funcionais e não-funcionais do proje
 |   1  | Permitir o usuário pesquisar pela vaga desejada   | ALTA       | 
 |   2  | Exibir as vagas cadastradas no sistema            | ALTA       |
 |   3  | Possuir um cadastro específico para empresas      | ALTA       |
-|   4  | Possuir um cadastro de candidatos para as vagas   | MÉDIA      |
+|   4  | Possuir um cadastro de candidatos                 | MÉDIA      |
 |   5  | Listar candidatos cadastrados em determinada vaga | ALTA       |
 |   6  | Permitir o administrador remover contas           | MÉDIA      |
 |   7  | Exibir as vagas em que o usuário se cadastrou     | ALTA       |
