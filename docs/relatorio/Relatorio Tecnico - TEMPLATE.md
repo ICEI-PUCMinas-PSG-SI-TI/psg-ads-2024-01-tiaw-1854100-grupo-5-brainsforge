@@ -78,7 +78,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                |PARA ... `MOTIVO/VALOR`                              |
 |--------------------|---------------------------------------------------|-----------------------------------------------------|
 |Ana Silva           |  Filtro de pesquisa                               |  Encontrar determinado curso ou vaga disponível     |
-|Empresa             |  Feed de oportunidades                                |  Divulgar vagas de emprego                          |
+|Empresa             |  Feed de oportunidades                            |  Divulgar vagas de emprego                          |
 |Empresa             |  Cadastro específico                              |  Preencher informações adicionais da empresa        |
 |Marcos Cardoso      |  Cadastro de candidatos                           |  Concorrer a vaga desejada                          |
 |Empresa             |  Listagem de candidatos                           |  Saber quem se candidatou na vaga que cadastrei     |
@@ -164,6 +164,48 @@ Aluno(a): Jáderson
 ## Mapa de navegação
 
 Link para mapa de navegação no miro: https://miro.com/app/board/uXjVK5XusxM=/?share_link_id=492722302704
+
+## Tecnologias
+
+❏ Html.
+
+❏ Css.
+
+❏ JavaScript.
+
+❏ Bootstrap.
+
+❏ LocalStorage para persistência de dados.
+
+## Metodologia
+
+Conforme nos foi orientado inicialmente, utilizamos o scrum para a gestão
+de time e kanban para gestão de tarefas.
+
+
+Divisão de papéis:
+
+❏ Bruna: Tela de cadastro de usuário e empresa, cadastro de vagas.
+
+❏ João: Tela de perfil e listagem de candidatos.
+
+❏ Gabriel: Tela de cursos e cadastro de candidatos.
+
+❏ Jáderson: Tela de listagem de vagas, descrição da vaga, login, admin.
+
+
+Ferramentas:
+
+❏ Visual Studio Code.
+
+❏ Miro.
+
+❏ Figma.
+
+
+## Funcionalidades
+
+O site pode cadastrar empresas, usuários e vagas. Lista as vagas cadastradas e seus detalhes. Possui tela de login, perfil e tela do administrador. Tela de cadastro de candidatos e tela de listagem de candidatos inexistentes. Atualmente o usuário ou empresa apenas pode ver ou criar vagas, mas não pode se candidatar à vaga.
 
 # Conclusões
 
