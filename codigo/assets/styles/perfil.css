@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+  background:rgba(0, 0, 0, 0.77);
+  width:50%;
+  color:white;
+  margin: 50px auto;
+  padding:30px 30px;
+  box-sizing:border-box;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.informacao{
+    background:#2c2c2c;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    border:groove rgba(18, 18, 18, 0.366);
+    border-top-style:none;
+    border-bottom-style:none;
+}
+
+.card_item{
+    background:#444;
+    color:white;
+    margin:30px;
+    width:60%;
+    height:50px;
+    border: groove 1px;
+    border-radius:15px;
+    display:flex;
+    border:solid rgb(0, 0, 0) 1px;
+    justify-content:center;
+    align-items:center;
+}
+
+.img_perfil{
+    width:110px;
+    border-radius:100px;
+    margin-bottom:10px;
+    background:white;
+    border:solid black 3px;
+}
+
+.area_perfil{
+    display:flex;
+    background:#3b3b3b;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    border:groove rgba(0, 0, 0, 0.366);
+}
+
+#tela_perfil{
+    display:flex;
+    align-items:center; 
+    margin:10px;
+}
+
+#btn_dropdown{
+    border:none;
+    border-radius:6px;
+    background:white;
+    width:25px;
+    text-align:center;
+    margin:0px 0px 7px 6px;
+ }
+ 
+ .opcoes ul{
+     background:#2c2c2c;
+     text-align:center;
+ }
+ 
+ .opcoes a{
+     color:white;
+     text-decoration:none;
+ }
+ 
+ .opcoes ul li:hover{
+     background:#202020;
+ }
+
+.area_perfil{
+    display:flex;
+    background:#3d3d3d;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    border:groove rgba(0, 0, 0, 0.366);
+}
+
+.area_perfil p {
+    color: #06060600;
+}
+
+.editar_perfil div:first-of-type{
+    background:#3d3d3d;
+    border:none;
+}
+
+#btn_editar{
+    background:#373737;
+    color:white;
+    width:30%!important;
+    border: solid black 1px;
+}
+
+#btn_editar:hover{
+    background:#2c2c2c;
+}
+
+.editar_perfil div:last-of-type input{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    height:30px;
+    background:#3b3b3b;
+    color:white;
+    border:solid 1px rgb(0, 0, 0);
+    margin-top: 3px;
+}
+
+.editar_perfil div:last-of-type{
+    align-items:unset!important;
+}
+
+#msg_erro{
+    margin:8px 0px 0px 0px;
+    text-align:center;
+    color:rgb(255, 109, 109);
+    font-size:15px;
+    visibility:hidden;
+}
+
+body{
+    background-image:url("/assets/img/city.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+#btn_salvar{
+    background:#484F6E;
+    color:white;
+    margin: 15px auto;
+    padding:2px;
+    width:40%;
+}
+
+
+@media screen and (max-width:630px){
+    main{
+        width:90%;
+        padding:30px 10px 10px 10px;
+    }
+
+    body{
+        background-size:100% 100%;
+    }
+
+    .editar_perfil div:last-of-type input{
+        width: 200px;
+    }
+
+    .card_item{
+        width:85%;
+    }
+
+    #btn_editar{
+      width:50%!important;
+    }
+
+}
+
+@media screen and (max-width:1000px) and (min-width:631px){/*Mudar tamanho botão*/
+    main{
+        width:70%;
+        padding:30px 10px 10px 10px;
+    }
+
+    body{
+        background-size:100% 100%;
+    }
+
+}

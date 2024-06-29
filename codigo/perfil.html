@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+
+  <link rel="stylesheet" href="/assets/styles/perfil.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/4dc726c735.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <header id="header">
+
+  </header>
+
+  <main>
+
+    <section class="area_perfil">
+      <div id="tela_imagem"></div>
+      <div id="tela_perfil"></div>
+
+      <button class="btn" title="Editar perfil" id="btn_editar" style="width:10px" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Editar perfil</button>
+
+      <div class="editar_perfil">
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            <label id="label_nome">Novo nome de usuário: </label>
+            <input type="text" id="nome_user">
+            <label id="label_email">Novo email: </label>
+            <input type="email" id="email_user">
+            <label id="label_cep">Novo cep:</label>
+            <input type="text" id="cep_user">
+            <label id="label_senha">Nova senha:</label>
+            <input type="password" id="senha_user">
+            <label id="label_senha_confirmada">Confirmar senha:</label>
+            <input type="password" id="senha_confirmada">
+            <h6 id="msg_erro"></h6>
+            <button id=btn_salvar>Salvar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article class="informacao" id="tela"></article>
+
+    <section class="section_logout">
+
+    </section>
+
+  </main>
+
+  <footer id="footer">
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4dc726c735.js" crossorigin="anonymous"></script>
+
+  <script src="/assets/scripts/login-admin-perfil.js"></script>
+
+  <script>
+    //ler o atributo tipo do primeiro usuário para saber qual layout mostrar.
+
+    var index, tipo, visibilidade, user;
+
+    function Exibir_layout() {
+      let obj_usuario = Ler_dados(0);
+      let obj_empresa = Ler_dados(1);
+      let logado = false;
+      let cpf, img;
+
+      for (let i = 0; i < obj_usuario.length; i++) {
+        if (obj_usuario[i].login == true) {
+          logado = true;
+          index = i;
+          tipo = "Usuário";
+          cpf = "Cpf";
+          img = "/assets/img/user.png";
+          visibilidade = false;
+          user = obj_usuario[index]
+          break;
+        }
+      }
+
+      if (!logado) {
+        for (let j = 0; j < obj_empresa.length; j++) {
+          if (obj_empresa[j].login == true) {
+            logado = true;
+            index = j;
+            tipo = "Empresa";
+            cpf = "Cnpj";
+            img = "/assets/img/empresa.jpg";
+            visibilidade = true;
+            user = obj_empresa[index]
+            break;
+          }
+        }
+      }
+
+      if (logado) {
+        let str_html = "";
+
+        str_html =
+          `
+         <img class="img_perfil" src="${img}">
+        `;
+
+        document.getElementById("tela_imagem").innerHTML = str_html;
+
+        str_html = "";
+        str_html =
+          `
+        <h6>${tipo + ": " + user.nome}</h6>
+        <section class="opcoes">
+        <div class="dropdown">
+          <button class="btn-sm" id="btn_dropdown" type="button" title="Mais opções" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i></button>
+          <ul class="dropdown-menu">
+            <a id="btn_vagas" href="#"><li>Cadastrar vagas</li></a>
+            <a id="btn_logout" href="#"><li>Fazer logout</li></a>
+          </ul>
+        </div>
+      </section>
+       `;
+
+        document.getElementById("tela_perfil").innerHTML = str_html;
+
+        str_html = "";
+        str_html =
+          `
+    
+       <section class="card_item">
+        <h6>Email: ${user.email}</h6>
+       </section>
+       <section class="card_item">
+        <h6>${cpf + ": " + user.cpfcnpj}</h6>
+       </section>
+       <section class="card_item">
+        <h6>Cep: ${user.cep}</h6>
+       </section>
+  
+       `;
+
+        document.getElementById("tela").innerHTML = str_html;
+
+        if (visibilidade) {
+          document.getElementById("btn_vagas").style.display = "unset";
+        }
+
+        else {
+          document.getElementById("btn_vagas").style.display = "none";
+        }
+
+      }
+
+      else {
+        alert("Faça primeiro o login para depois acessar o seu perfil");
+        location.href = "login.html";
+      }
+    }
+
+    function Logout() {
+      let storage;
+
+      if (tipo == "Usuário") {
+        storage = 0;
+      }
+      else {
+        storage = 1;
+      }
+
+      let obj = Ler_dados(storage);
+      obj[index].login = false;
+      Salvar_dados(obj, storage);
+      location.href = "login.html";
+    }
+
+    function Cadastro_vagas() {
+      location.href = "cadastroVagas.html";
+    }
+
+    function Editar_perfil() {
+
+      if (tipo == "Usuário") {
+        storage = 0;
+      }
+      else {
+        storage = 1;
+      }
+
+      let obj_dados = Ler_dados(storage);
+
+      let nome = document.getElementById("nome_user").value;
+      let email = document.getElementById("email_user").value;
+      let cep = document.getElementById("cep_user").value;
+      let senha = document.getElementById("senha_user").value;
+      let senha_confirmada = document.getElementById("senha_confirmada").value;
+
+      let msg_erro = document.getElementById("msg_erro");
+      let nome_label = document.getElementById("label_nome");
+      let email_label = document.getElementById("label_email");
+      let cep_label = document.getElementById("label_cep");
+      let senha_label = document.getElementById("label_senha");
+      let senha_confirmada_label = document.getElementById("label_senha_confirmada");
+
+
+      if (nome == "" || email == "" || cep == "" || senha == "") {
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "Preencha todos os campos!";
+      }
+
+      else if (nome.length > 20) {
+        email_label.style.color = senha_label.style.color = cep_label.style.color = senha_confirmada_label = "white";
+        nome_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "O nome pode possuir no máximo 20 caracteres";
+      }
+
+      else if (nome == obj_dados[index].nome) {
+        email_label.style.color = senha_label.style.color = cep_label.style.color = senha_confirmada_label = "white";
+        nome_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "O novo nome precisa ser diferente do anterior";
+      }
+
+      else if (email.indexOf('@') == -1) {
+        cep_label.style.color = senha_label.style.color = nome_label.style.color = senha_confirmada_label = "white";
+        email_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "Email inválido";
+      }
+
+      else if (email == obj_dados[index].email) {
+        cep_label.style.color = senha_label.style.color = nome_label.style.color = senha_confirmada_label = "white";
+        email_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "O novo email precisa ser diferente do anterior";
+      }
+
+      else if (cep.length < 8 || cep.length > 8) {
+        email_label.style.color = senha_label.style.color = nome_label.style.color = senha_confirmada_label = "white";
+        cep_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "Cep inválido";
+      }
+
+      else if (cep == obj_dados[index].cep) {
+        email_label.style.color = senha_label.style.color = nome_label.style.color = senha_confirmada_label = "white";
+        cep_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "O novo cep precisa ser diferente do anterior";
+      }
+
+      else if (senha.length < 8) {
+        email_label.style.color = nome_label.style.color = cep_label.style.color = senha_confirmada_label = "white";
+        senha_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "A nova senha precisa ter no mínimo 8 caracteres";
+      }
+
+      else if (senha == obj_dados[index].senha) {
+        email_label.style.color = nome_label.style.color = cep_label.style.color = senha_confirmada_label = "white";
+        senha_label.style.color = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "A nova senha precisa ser diferente da anterior";
+      }
+
+      else if (senha != senha_confirmada) {
+        email_label.style.color = nome_label.style.color = cep_label.style.color = "white";
+        senha_label.style.color = senha_confirmada_label = "rgb(255, 109, 109)";
+        msg_erro.style.visibility = "unset";
+        msg_erro.innerText = "As senhas não são iguais";
+      }
+
+      else {
+        obj_dados[index].nome = nome;
+        obj_dados[index].email = email;
+        obj_dados[index].cep = cep;
+        obj_dados[index].senha = senha;
+        obj_dados[index].confirmaSenha = senha_confirmada;
+
+        msg_erro.innerText = "";
+        msg_erro.style.visibility = "hidden";
+
+        cep_label.style.color = "white";
+        email_label.style.color = "white";
+        senha_label.style.color = "white";
+        nome_label.style.color = "white";
+
+        Salvar_dados(obj_dados, storage);
+        alert("Alterações realizadas com sucesso!");
+        location.reload();
+      }
+
+    }
+
+
+
+    onload = () => {
+      Exibir_layout();
+      document.getElementById("btn_salvar").addEventListener('click', Editar_perfil);
+      document.getElementById("btn_logout").addEventListener('click', Logout);
+      document.getElementById("btn_vagas").addEventListener('click', Cadastro_vagas);
+    }
+
+  </script>
+
+</body>
+
+</html>

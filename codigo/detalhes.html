@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informações da vaga</title>
+
+  <link rel="stylesheet" href="/assets/styles/detalhe-vaga.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+  <header id="header">
+
+  </header>
+
+
+  <main>
+    <h2>Descrição da vaga</h2>
+
+    <section class="descricao" id="tela">
+
+  </main>
+
+  <footer id="footer">
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="/assets/scripts/listagem-detalhe-vagas.js"></script>
+
+  <script>
+
+    function Verificar_login() {
+      let obj_usuario = Ler_dados_usuario(0);
+      let obj_empresa = Ler_dados_usuario(1);
+      let logado = false;
+
+      for (let i = 0; i < obj_usuario.length; i++) {
+        if (obj_usuario[i].login == true) {
+          logado = true;
+          break;
+        }
+      }
+
+      if (!logado) {
+        for (let j = 0; j < obj_empresa.length; j++) {
+          if (obj_empresa[j].login == true) {
+            logado = true;
+            break;
+          }
+        }
+      }
+
+      if (logado) {
+        alert("Tela de candidatura de vagas inexistente");
+      }
+
+      else {
+        alert("Faça primeiro o login para poder se candidatar em uma vaga");
+        location.href="login.html"       
+      }
+
+    }
+
+    function Carrega_detalhes() {
+
+
+      let tela = document.getElementById("tela");
+      let strHtml = "";
+      let parametros = new URLSearchParams(location.search);
+      let index = parametros.get('id');
+      let objDados = Ler_dados();
+      let descricao = objDados.informacao[index];
+
+
+      strHtml = `
+    
+      <article class="item">
+        <h6>Vaga:</h6>
+        <h6>${descricao.vaga}</h6>
+      </article>
+
+      <article class="item">
+        <h6>Empresa:</h6>
+        <h6>${descricao.empresa}</h6>
+      </article>
+
+      <article class="funcao">
+        <h6>Função:</h6>
+        <h6>${descricao.funcao}</h6>
+      </article>
+
+      <article class="requisitos">
+        <h6>Requisitos:</h6>
+        <h6>${descricao.requisitos}</h6>
+      </article>
+
+      <article class="item">
+      <h6>Salário:</h6>
+      <h6>R$ ${descricao.salario}</h6>
+    </article>
+
+    <article class="item">
+        <h6>Carga horária:</h6>
+        <h6>${descricao.cargaHoraria}</h6>
+      </article>
+
+      <article class="item">
+        <h6>Número de vagas:</h6>
+        <h6>${descricao.numeroDeVagas}</h6>
+      </article>
+
+
+      <button id="btnLink">Cadastrar-se</button>
+    </section>
+
+    `;
+
+      tela.innerHTML = strHtml;
+
+    }
+
+    onload = () => {
+      Carrega_detalhes();
+      document.getElementById("btnLink").addEventListener('click', Verificar_login);
+    }
+
+  </script>
+
+
+</body>
+
+</html>
