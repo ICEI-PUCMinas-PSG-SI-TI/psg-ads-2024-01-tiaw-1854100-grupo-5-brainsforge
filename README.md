@@ -1,19 +1,22 @@
-# Trabalho Interdisciplinar (depois definir um nome pro grupo e pro projeto)
+# BrainsForge
 
 Objetivo: Produzir um site que divulgue vagas de emprego cadastradas por empresas, e que pessoas interessadas possam se candidatar para concorrer a vaga desejada.
 
 ## Alunos integrantes da equipe
 
-* Rafael Caire da Silva
-* Elio Soares dos Santos Júnior
-* Esther Caldeira Rivadalves
-* Lucas Henrique Vannucci da Cruz Aguiar
-* Marco Tulio Gonçalves Ribeiro
-* Matheus Felipe de Oliveira Santos
+* Jáderson Válner Ferreira de Lima
+* Bruna Luiza Siqueira Borges Matias
+* Gabriel Baumgratz de Paula Botaro
+* João Paulo Said Fraga Lima
 
 ## Professores responsáveis
 
-* Sinaide Nunes Bezerra
+* Felipe Augusto Lima Reis
+* Caroline Rhaian da Silva Jandre
 
 ## Quadro de tarefas
-As tarefas estarão listadas na aba projects.
+As tarefas estão listadas agora na aba projects.
+
+
+## Instruções para uso
+Link para mapa de navegação no miro:  https://miro.com/app/board/uXjVK5XusxM=/?share_link_id=492722302704
